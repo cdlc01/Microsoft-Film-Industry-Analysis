@@ -1,6 +1,6 @@
 # Microsoft_Film_Project
 
-**Authors**: Student1, Student2
+**Authors**: George Ogden, Christopher de la Cruz
 
 ## Overview
 
@@ -8,7 +8,7 @@ A one-paragraph overview of the project, including the business problem, data, m
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+Microsoft has started a new movie studio in order to compete with all the larger companies that have began creating original video content. With the surging pandemic, video content viewing of all kinds is at an all time high. We will be exploring what types of film are currently doing best at the box office and translate those findings into actionable insights that Microsoft's movie studio can take in determining what type of films to create
 
 ***
 Questions to consider:
