@@ -20,8 +20,6 @@ Below is a list of the contents of this repository - instructions for using them
 
 ### Fork This Repository
 
-**For a group project**, have only one team member do these steps:
-
 1. Fork this repository to your personal account
    - In GitHub, go to this repository and click the "Fork" button in the upper right
    
