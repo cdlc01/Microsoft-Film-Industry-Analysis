@@ -8,7 +8,7 @@ A one-paragraph overview of the project, including the business problem, data, m
 
 ## Business Problem
 
-Microsoft has started a new movie studio in order to compete with all the larger companies that have began creating original video content. With the surging pandemic, video content viewing of all kinds is at an all time high. We will be exploring what types of film are currently doing best at the box office and translate those findings into actionable insights that Microsoft's movie studio can take in determining what type of films to create
+Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
 
 ***
 Questions to consider:
