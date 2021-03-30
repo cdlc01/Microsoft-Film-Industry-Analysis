@@ -19,7 +19,27 @@ Questions to consider:
 
 ## Data
 
-Describe the data being used for this project.
+Building Our Database:
+
+Rather than tying together the datasets provided, we chose to build our own dataset with the IMBDpy package. This package's 'get_movie' method, given the appropriate identification number, provides access to information on a movie's IMDb page.
+
+To find the appropriate ids, we refered to the 't_const' column in 'imbd.title.basics.csv' which contains roughly ~146k entries. These entries then had to be cleaned up, by removing 'tt' at the beginning of each string, in order to use them in the 'get_movie' method.
+
+We next filtered out movies by their release date to removie movies that were A) released in 2020 & 2021YTD (an outlier due to COVID pandemic); B) have not yet been released; or C) released prior to 2017.
+
+During our exploration of the database, we discovered that there were some erroneous entries which had to be accounted. Errors fell into one of two buckets: 1) Erroneous Year Date & 2) Non-existant ids. Example entries from the original dataset:
+
+As a result we chose to collect the data from IMDb while also filtering out ids that were not found in IMDb and movies that were not released after 2009.
+
+With the IMDb information now stored locally, we created a dataframe containing the variables we believed were worth looking at for our analysis:
+-Total Revenue & Budget
+-Rating & Vote Count
+-R/PG13/etc & Languages
+-Genre & Plot Outline
+-Producers, Writers, Directors & Actors
+-Year
+-Release Date
+-Runtime
 
 ***
 Questions to consider:
