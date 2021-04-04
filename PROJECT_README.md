@@ -72,12 +72,19 @@ For any additional questions, please contact **Christopher de la Cruz at cdelacr
 
 ## Repository Structure
 
-Describe the structure of your repository and its contents, for example:
-
 ```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+├── __init__.py                                  <- .py file that signals to python these folders contain packages
+├── README.md                                    <- The top-level README for reviewers of this project
+├── DS_Project_Presentation.pdf                  <- PDF version of project presentation
+├── code
+│   ├── __init__.py                              <- .py file that signals to python these folders contain packages
+│   ├── visualizations.py                        <- .py script to create finalized versions of visuals for project
+│   ├── Data_Cleaning.py                         <- .py script used to pre-process and clean data from the IMDbpy module
+│   ├── Dataframe_Cleaning.py                    <- .py script used to clean the dataframe directly
+│   ├── Data_Collection-DO NOT RUN.py            <- .py script used to gather data using the IMDbpy module. The process takes a full day. We advise not running
+│   ├── Analysis.py                              <- .py script for specific genre analysis (courtesy of George)
+│   ├── eda_notebook.ipynb                       <- Notebook containing data exploration
+|   ├── Microsoft_Film_Industry_Analysis.ipynb   <- Narrative documentation of analysis in Jupyter notebook 
+|       ├── data                                 <- Both sourced externally and generated from code
+└── images                                       <- Both sourced externally and generated from code
 ```
