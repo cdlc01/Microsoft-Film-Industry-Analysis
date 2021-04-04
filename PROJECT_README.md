@@ -27,20 +27,20 @@ We chose to build our own dataset through IMDb via IMDbPY, a python module which
 
 We mainly stuck to the observations of films in the past 5 years in order to stay relevant to today's trends. We observed mainly how different factors affected a film's profitability and popularity which are the two main driving sources behind any investment. A film's profitability is a large short-term profit but its popularity means more payments for domestic and international licensing fees meaning there is more long term profit to be made.
 
-## Results
+## Result 1
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
-
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-
-Here is an example of how to embed images from your sub-folder:
+We have two main key results which are that there is a preferential budget range for movies that are both highly rated and popular
 
 ### Visual 1
-![graph1](./images/viz1.png)
+![budget_sd](https://user-images.githubusercontent.com/77891283/113523642-ef653900-9576-11eb-9cd0-43f22f14e078.png)
+
+## Result 1
+Our second main result is that the genres performing best individually and in combination are action, adventure, and sci fo
+
+### Visual 2
+![genre_ind](https://user-images.githubusercontent.com/77891283/113523656-158ad900-9577-11eb-8e14-d7ba4ac637b3.png)
+
+![genre_pairs](https://user-images.githubusercontent.com/77891283/113523659-1d4a7d80-9577-11eb-8fef-89c56c9a2ba6.png)
 
 ## Conclusions
 
@@ -68,7 +68,7 @@ These are the next steps we believe we should take:
 
 Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Christopher de la Cruz at cdelacruz2013@gmail.com, George Ogden at george.p.ogden@gmail.com**
 
 ## Repository Structure
 
