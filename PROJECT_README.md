@@ -4,50 +4,24 @@
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+Our analysis currently reflects what types of films are doing best at the box office in 2021. We take a deep dive into exploring movie profits and popularity and their relationship with other film factors. Our project currently shows that action, adventure, and sci-fi movies are performing best and that the most profitable plots have familiar (and familial) themes and high stakes. This analysis can be used by any film studio currently debating what kinds of movies they should be making
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+Microsoft is creating a movie studio and wants the rundown on what types of movies they should be creating. According to a 2016 poll among US adults, the most important factors in determining what to watch were dependant on genre, cast, relatable storylines, and films that were recommended (weight was given first to reccomendations by friends/family and then to other films that were related). We chose to mainly focus on what genres perform best, what synopsises performed best, how budget affects a film's popularity and what time of year of is best for release. The answers to these questions will result in films that are profitable, popular, and relatable. We are ignoring cast for the time being because we believe that that factor is too highly specific to the movie's type and that the answer will change for each genre. ![Influential_Factors](https://user-images.githubusercontent.com/77891283/113523260-b926ba00-9574-11eb-8ff4-5eef97826ad8.png)
 
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
 
 ## Data
 
-Building Our Database:
+We chose to build our own dataset through IMDb via IMDbPY, a python module which allows you to directly retrieve data from the IMDb website.  Ultimately, our base datasets included 2,475 films from IMDb of the top grossing movies for each year between 2014 and 2019.  This dataset included revenue--domestic and international--and 8 factors that we were interested in analyzing, including:
 
-Rather than tying together the datasets provided, we chose to build our own dataset with the IMBDpy package. This package's 'get_movie' method, given the appropriate identification number, provides access to information on a movie's IMDb page.
-
-To find the appropriate ids, we refered to the 't_const' column in 'imbd.title.basics.csv' which contains roughly ~146k entries. These entries then had to be cleaned up, by removing 'tt' at the beginning of each string, in order to use them in the 'get_movie' method.
-
-We next filtered out movies by their release date to removie movies that were A) released in 2020 & 2021YTD (an outlier due to COVID pandemic); B) have not yet been released; or C) released prior to 2017.
-
-During our exploration of the database, we discovered that there were some erroneous entries which had to be accounted. Errors fell into one of two buckets: 1) Erroneous Year Date & 2) Non-existant ids. Example entries from the original dataset:
-
-As a result we chose to collect the data from IMDb while also filtering out ids that were not found in IMDb and movies that were not released after 2009.
-
-With the IMDb information now stored locally, we created a dataframe containing the variables we believed were worth looking at for our analysis:
--Total Revenue & Budget
--Rating & Vote Count
--R/PG13/etc & Languages
--Genre & Plot Outline
--Producers, Writers, Directors & Actors
--Year
--Release Date
--Runtime
-
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
+- Budget<br>
+- Rating<br>
+- Vote Count<br>
+- Genre<br>
+- Plot Synopsis<br>
+- Year<br>
+- Month<br>
 
 ## Methods
 
