@@ -75,7 +75,7 @@ For any additional questions, please contact **Christopher de la Cruz at cdelacr
 ```
 ├── __init__.py                                  <- .py file that signals to python these folders contain packages
 ├── README.md                                    <- The top-level README for reviewers of this project
-├── DS_Project_Presentation.pdf                  <- PDF version of project presentation
+├── Powerpoint_film_analysis.pdf                 <- PDF version of project presentation
 ├── code
 │   ├── __init__.py                              <- .py file that signals to python these folders contain packages
 │   ├── visualizations.py                        <- .py script to create finalized versions of visuals for project
