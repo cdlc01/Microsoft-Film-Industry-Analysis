@@ -66,7 +66,7 @@ These are the next steps we believe we should take:
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in our Jupyter Notebook (Microsoft_Film_Industry_Analysis.ipynb located in the code folder) or our [Presentation](https://github.com/cdlc01/Microsoft-Film-Industry-Analysis/files/6255838/Powerpoint_film_analysis.pdf)
 
 For any additional questions, please contact **Christopher de la Cruz at cdelacruz2013@gmail.com, George Ogden at george.p.ogden@gmail.com**
 
