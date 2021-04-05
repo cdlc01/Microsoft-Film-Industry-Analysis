@@ -35,7 +35,7 @@ We have two main key results which are that there is a preferential budget range
 ![budget_sd](https://user-images.githubusercontent.com/77891283/113523642-ef653900-9576-11eb-9cd0-43f22f14e078.png)
 
 ## Result 1
-Our second main result is that the genres performing best individually and in combination are action, adventure, and sci fo
+Our second main result is that the genres performing best individually and in combination are action, adventure, and sci-fi
 
 ### Visual 2
 ![genre_ind](https://user-images.githubusercontent.com/77891283/113523656-158ad900-9577-11eb-8e14-d7ba4ac637b3.png)
